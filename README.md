@@ -1,2 +1,0 @@
-# gearSetPractice
-Read me file
