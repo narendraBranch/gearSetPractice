@@ -13,7 +13,7 @@ public class R2_InitialApexClassChange {
     **/
     public static List<Account> pipelineTestMethod(){
         List<Account> accList = [SELECT Id, Name FROM Account Limit 1];
-        System.debug(accList);
+        System.debug('Account List: ' + accList);
         return accList;
     }
 }
