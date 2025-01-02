@@ -14,6 +14,7 @@ public class R2_InitialApexClassChange {
     public static List<Account> pipelineTestMethod(){
         List<Account> accList = [SELECT Id, Name FROM Account Limit 1];
         System.debug('Account List: ' + accList);
+        System.debug('Debug to Test R2.5 Pipeline');
         return accList;
     }
 }
