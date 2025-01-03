@@ -14,7 +14,7 @@ public with sharing class R3_PipelineTestClass {
     **/
     public static List<Contact> r3PipelineTestMethod(){
         List<Contact> conList = [SELECT Id, Name FROM Contact Limit 1];
-        System.debug('Contact List: ' + conList);
+        System.debug('List of Contact: ' + conList);
         return conList;
     }
 }
