@@ -17,4 +17,11 @@ public class R2_InitialApexClassChange {
         System.debug('Debug to Test R2.5 Pipeline');
         return accList;
     }
+
+    //Testing Back Propogation
+    public static List<Contact> pipelineTestMethod1(){
+        List<Contact> conList = [SELECT Id, Name FROM Contact Limit 1];
+        System.debug('Contact List: ' + conList);
+        return conList;
+    }
 }
